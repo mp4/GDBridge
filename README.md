@@ -36,7 +36,7 @@ Add this to your .csproj:
 ```
 
 ```csharp
-using GdBridge;
+using GDBridge;
 
 var myGDScript = new GdScriptBridgeFactory(this).ResolveNode<ArenaBridge>(arena);
 
